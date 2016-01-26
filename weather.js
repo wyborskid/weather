@@ -5,8 +5,8 @@ $(function() {
     // Put your code here to change the "markup" variable. 
     // Don't change any other code in this file. You will be sad.
     
-    var markup = "The weather report... " + "will be here when I finish my homework.";
-    
+    //var markup = "The weather report... " + "will be here when I finish my homework.";
+    var markup = "<span>The weather today will be " + data.temperature + "degrees with a " + data.chanceOfRain + " chance of rain.";
     
     // End of your code
 
